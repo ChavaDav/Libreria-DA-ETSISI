@@ -12,10 +12,26 @@ main,header
             border: solid 1px;
             padding:20px;
             margin:0 ;
-            word-spacing: 10px;
+            word-spacing: 8px;
         }
         header img
         {
             max-width: 400px;
             max-height: auto;   
+        }
+        header
+        {
+            padding:0px 0 0 80px;
+        }
+        input
+        {
+            margin-top: 50px;
+            padding: 25px;
+            background-color: rgb(240, 236, 236);
+            border: solid 1px;
+            border-radius: 5%;
+        }
+        input:hover
+        {
+            background-color: rgb(211, 208, 208);
         }

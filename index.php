@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Libreria</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
@@ -11,11 +11,10 @@
         <img src="https://etsisi.da.upm.es/wp-content/uploads/2020/03/cropped-Logo-web-2.png" alt="">
     </header>
     <main>
-        <h1>Esta es la pagina principal</h1>
 
         <form action="" method="post"></form>
         <a href="/conexion/comprobacion.php">
-            <input type="button" value="Conexion">
+            <input type="button" value="Mostrar elementos de la bbdd">
         </a>
     
         <?php
@@ -24,12 +23,12 @@
         if (isset($_SESSION['usuarios'])) {
             echo "<div>";
             for ($i=0; $i < count($_SESSION['usuarios']) ; $i++) { 
-                echo "<p class='contenidos'>NOMBRE:" .$_SESSION['usuarios'][$i] . "    ASIGNATURA:". $_SESSION['asignatura'][$i] . "    LIBRO:" . $_SESSION['libro'][$i] .   "</p>";
+                echo "<p class='contenidos'>NOMBRE:   " .$_SESSION['usuarios'][$i] . "  ASIGNATURA: ". $_SESSION['asignatura'][$i] . "  LIBRO: " . $_SESSION['libro'][$i] .   "</p>";
             }
             echo "</div>";    
         }else
         {
-            echo " <pre>La conexión no funciona o aun no ha sido establecida </pre>";
+            echo " <p>La conexión no funciona o aun no ha sido establecida </p>";
 
         }
 
