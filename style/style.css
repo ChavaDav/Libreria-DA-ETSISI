@@ -1,0 +1,21 @@
+main,header
+        {
+            text-align: center;
+        }
+        div
+        {
+            margin:10px 20%;
+            border:solid 1px;
+        }
+        .contenidos
+        {
+            border: solid 1px;
+            padding:20px;
+            margin:0 ;
+            word-spacing: 10px;
+        }
+        header img
+        {
+            max-width: 400px;
+            max-height: auto;   
+        }
