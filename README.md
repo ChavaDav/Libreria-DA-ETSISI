@@ -2,8 +2,6 @@
 
 # Proyecto Libreria
 
----
-
 El proyecto consiste en una aplicación web basada en servidor destinada a gestionar el préstamo y seguimiento de libros de DA-ETSISI. El sistema está diseñado para llevar un control de los libros disponibles, su asignación a los estudiantes, y la asignatura a la que pertenecen. A continuación se detallan las funcionalidades principales:
 
 1. **Gestión de Libros:**
